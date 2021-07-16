@@ -6,17 +6,17 @@ function setup() {
 function draw() 
 {
   background(30);
-if(keyDown(DOWN_ARROW))
+if(keyIsDown(DOWN_ARROW))
  background('red')
 
- if(keyDown(LEFT_ARROW))
+ if(keyISDown(LEFT_ARROW))
  background('blue')
 
- if(keyDown(RIGHT_ARROW))
+ if(keyISDown(RIGHT_ARROW))
  background('pink')
 
 
- if(keyDown(UP_ARROW))
+ if(keyISDown(UP_ARROW))
  background('green')
 
 }
